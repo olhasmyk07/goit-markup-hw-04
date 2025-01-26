@@ -109,7 +109,8 @@ head {
       
       
    .a-nav:hover::after,
-   .a-nav:focus::after {
+   .a-nav:focus::after,
+   .a-nav.current-studio::after {
        opacity: 1;
       }
    .a-address {
@@ -132,7 +133,8 @@ head {
    .mailtotel-address:hover,
    .mailtotel-address:focus,
    .a-nav:hover,
-   .a-nav:focus {
+   .a-nav:focus,
+   .current-studio {
          color: #404bbf
       }
 
@@ -285,7 +287,7 @@ head {
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     padding-bottom: 8px;
+     margin-bottom: 8px;
   }
   .team-list-icons {
      display: flex;
